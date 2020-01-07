@@ -47,15 +47,6 @@ Text Domain: O'Fiesta
 		.info {
 		}
 		
-		.info.left {
-			float: left;
-			width: 50%;
-		}
-		.info.right {
-			float: right;
-			width: 50%;
-		}
-		
 		.cta {
 			width: 100%;
 			padding-top: 3%;
