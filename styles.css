@@ -25,7 +25,13 @@ Text Domain: O'Fiesta
 			font-size: 30px;
 			outline: none;
 			border-radius: 20px;
+		
 		}
+
+		.mouseover:hover {
+			opacity: 0.7;
+		}
+			
 
 
 		.content-desktop {
@@ -54,6 +60,10 @@ Text Domain: O'Fiesta
 
 		.planner {
 
+		}
+
+	
+  			
 		}
 
 
