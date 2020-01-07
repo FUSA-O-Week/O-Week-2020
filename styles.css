@@ -50,10 +50,12 @@ Text Domain: O'Fiesta
 		.info.left {
 			float: left;
 			width: 50%;
+			display: inline-block;
 		}
 		.info.right {
 			float: right;
 			width: 50%;
+			display: inline-block;
 		}
 		
 		.cta {
