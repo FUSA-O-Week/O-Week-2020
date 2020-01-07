@@ -49,9 +49,11 @@ Text Domain: O'Fiesta
 		
 		.info.left {
 			float: left;
+			width: 50%;
 		}
 		.info.right {
 			float: right;
+			width: 50%;
 		}
 		
 		.cta {
