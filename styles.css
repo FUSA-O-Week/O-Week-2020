@@ -1,0 +1,93 @@
+		/*
+Theme Name: O'Week 2020
+Theme URI: http://flindersoweek.com.au
+Author: FUSA Media
+Author URI: http://fusa.edu.au
+Description: 2020 O'Fiesta website
+Version: 1.0
+Text Domain: O'Fiesta
+*/
+
+		.content-desktop {display: block;}
+		.content-mobile {display: none;}
+
+		body {
+		background: #F2E3C5;
+  		height: 100%;
+	}
+
+		button {
+			justify-content: center;
+			width: 360px;
+			color: #F2E3C5;
+			background-color: #C9414E;
+			border: none;
+			font-size: 30px;
+			outline: none;
+			border-radius: 20px;
+		}
+
+
+		.content-desktop {
+			width: 100%;
+			display: flex;
+			justify-content: space-around;
+		}
+
+		.column.left {
+		}
+
+		.column.middle {
+		}
+
+		.column.right {
+
+		}
+
+		.info {
+		}
+
+		.cta {
+			width: 100%;
+			padding-top: 8%;
+		}
+
+		.planner {
+			padding-top: 8%;
+			padding-bottom: 4%;
+		}
+
+
+		@media (max-width: 768px) {
+
+		.content-desktop {display: none;}
+		.content-mobile {display: block;}
+
+		.socials {
+			text-align: center;
+			padding-top: 10%;
+		}
+
+		.lineup {
+			text-align: center;
+			padding-top: 10%;
+		}
+
+		.cta {display: none;}
+
+		.planner {display: none;}
+
+		.cta-mobile {
+			padding-top: 10%;
+		}
+
+		.planner-mobile {
+			padding-top: 5%;
+		}
+
+		button {
+			width: 60%;
+			font-size: 28px;
+		}
+
+		}
