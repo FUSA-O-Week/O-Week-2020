@@ -90,6 +90,12 @@ Text Domain: O'Fiesta
 		.planner-mobile {
 			padding-top: 5%;
 		}
+			
+		.ofiesta {display: none;}
+			
+		.ofiesta-mobile {
+			
+		}
 
 		button {
 			width: 60%;
